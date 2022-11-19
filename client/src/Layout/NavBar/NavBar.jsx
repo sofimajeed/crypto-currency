@@ -6,11 +6,12 @@ const Home = () => {
   return (
    <nav className="NavBar-Wrapper">
      <div>
-       <h3 className="NavBar-Title">Mern Stack - Crud App</h3>
+       <h3 className="NavBar-Title">Banyan- Crypto Currency Converter</h3>
      </div>
      <div className="NavBar-Links">
       <Link to="/" className="NavBar-Link">Home</Link>
-      <Link to="/add" className="NavBar-Link">Add</Link>
+      <Link to="/to-crypto" className="NavBar-Link">To-Crypto</Link>
+      <Link to="/to-currency" className="NavBar-Link">To-Currency</Link>
      </div>
    </nav>
   );

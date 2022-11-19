@@ -1,11 +1,11 @@
-.AddStudent-Wrapper {
+.Add-Wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.Add-Student-Input {
+.Add-Input {
   padding: 4px 11px;
   width: 55vw;
   height: 32px;
@@ -39,4 +39,10 @@
 
 label {
   padding-left: 2%;
+}
+
+.submit-button{
+  margin-left: 15px;
+  padding: 4px;
+  background-color: red;
 }

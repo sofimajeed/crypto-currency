@@ -4,8 +4,8 @@ import { Switch, Route } from "react-router-dom";
 // Components
 import Home from "../Layout/Home/Home";
 import NavBar from "../Layout/NavBar/NavBar";
-import Add from "../Layout/Add/Add";
-import Edit from "../Layout/Edit/Edit";
+import ToCrypto from "../Layout/toCrypto/toCrypto";
+import ToCurrency from "../Layout/toCurrency/toCurrency";
 
 const Routes = () => {
   return (
@@ -13,8 +13,8 @@ const Routes = () => {
         <NavBar />
         <Switch>
           <Route path="/" component={ Home } exact />
-          <Route path="/add" component={ Add } exact />
-          <Route path="/edit" component={ Edit } exact />
+          <Route path="/to-crypto" component={ ToCrypto } exact />
+          <Route path="/to-currency" component={ ToCurrency } exact />
         </Switch>
       </Fragment>
   );
